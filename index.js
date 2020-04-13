@@ -16,7 +16,7 @@ $.ajax({
   contentType: 'application/json; charset=utf-8',
   success: function (result) {
       comics = result.data;
-      selectedComicId = comics.length-1;
+      selectedComicId = Math.floor(Math.random() * Math.floor(comics.length));
       selectedComic = comics[selectedComicId];
       $( "#comic-title" ).text(selectedComic.description || 'Untitled');
       $( "#comic-id" ).text(selectedComicId+1);
