@@ -1,0 +1,27 @@
+#comic-container img {
+  max-width: 100%;
+  height:100%;
+  object-fit: contain;
+}
+
+#comic-container {
+  height: 90vh;
+  max-height: 90vh;
+}
+
+.card-body { position: relative; }
+
+.card-body .arrow { position: absolute; height: 90%;}
+
+.card-body .arrow.left { left: 0; }
+
+.card-body .arrow.right { right: 0; }
+
+#comic-numbers .btn {
+ width: 30px;
+ height: 30px;
+}
+
+#comic-title-id {
+  font-size: 11px;
+}

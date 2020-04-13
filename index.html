@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Win95 CSS -->
+  <link rel="stylesheet" href="assets/win95.css">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPPAILAND</title>
+</head>
+<body class="windows-scrollbar">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
+    <img src="assets/icons/computer-3.png">
+    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="https://twitter.com/kohecubed">Commissions</a>
+    <a class="navbar-brand" href="https://twitter.com/kohecubed">Twitter</a>
+  </nav>
+
+  <!-- Header -->
+
+  <div class="pricing-header px-2 py-2 mx-auto text-center">
+    <h1 class="display-4">OPPAILAND</h1>
+  </div>
+
+  <!-- Not header -->
+
+  <div class="mx-3 mb-5">
+
+      <div class="card-deck mb-3 text-center">
+          <div class="card square mb-4 bg-white">
+              <div class="card-header">
+                  <h4 id="comic-title" class="my-0 font-weight-normal text-center">Select Comic</h4>
+                  <h6 id="comic-title-id" class="my-0 text-center">ID: (<span id="comic-id">1</span>)</h6>
+              </div>
+              <div class="card-body" id="comic-container">
+                  <img id="comic" src="" alt="Enable JavaScript">
+
+                  <button id="previous" class="btn btn-lg arrow left" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button id="next" class="btn btn-lg arrow right" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </button>
+              </div>
+
+
+          </div>
+      </div>
+
+      <!-- Nav Nums -->
+      <div>
+        <h2 class="text-center">Select Comic</h2>
+        <ul class="pagination justify-content-center">
+          <div id="comic-numbers" class="justify-content-center">
+        </div>
+        </ul>
+      </div>
+
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="taskbar">
+      <div class="row" style="margin-right: 0px;">
+          <div class="col-8">
+              <a href="https://twitter.com/kohecubed" class="btn start-button"><img src="assets/icons/users-1.png" class="icon-16">Commissions</a>
+              <a href="https://twitter.com/kohecubed" class="btn start-button"><img src="assets/icons/directory_folder_options-5.png" class="icon-16"> Twitter</a>
+          </div>
+          <div class="col-4 time">By <a href="https://twitter.com/HUKE_0">HUKE</a></div>
+      </div>
+
+  </footer>
+</body>
+
+<script src="index.js"></script>
+
+</html>
