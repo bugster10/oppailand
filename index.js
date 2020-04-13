@@ -39,7 +39,6 @@ $.ajax({
         $("#comic").attr("src",null);
         $("#comic").attr("src",selectedComic.link);
       });
-      console.log(comics);
   },
   error: function (error) {
       console.log(error);
