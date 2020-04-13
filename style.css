@@ -11,11 +11,22 @@
 
 .card-body { position: relative; }
 
-.card-body .arrow { position: absolute; height: 90%;}
+.card-body .arrow { position: absolute; 
+  height: 90%;
+  width:30vw;
+  background-color: rgba(100, 100, 100, 0.0);
+}
 
-.card-body .arrow.left { left: 0; }
+.card-body .arrow:hover { 
+  background-color: rgba(100, 100, 100, 0.05);
+}
 
-.card-body .arrow.right { right: 0; }
+
+.card-body .arrow.left { left: 0; border-right: none; border-bottom:none;}
+
+.card-body .arrow.left span { float: left;}
+.card-body .arrow.right { right: 0; border-left:none; border-bottom:none;}
+.card-body .arrow.right span { float: right;}
 
 #comic-numbers .btn {
  width: 30px;
